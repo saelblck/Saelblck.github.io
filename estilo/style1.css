@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body, h1, h2, ul, li {
+  color: rgb(14, 0, 7);
+  margin: 0px;
+  padding: 0px;
+}
+h1, h2 {
+    font-family: "Zilla Slab", serif;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+p, a {
+    color: rgb(14, 0, 7);
+    text-decoration: none;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+a:hover {
+    color: rgb(251, 220, 0);
+}
+ul, a {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+#foto-perfil {
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.titulo-subpage {
+    margin-top: 18%;
+}
